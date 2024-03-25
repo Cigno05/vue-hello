@@ -27,10 +27,27 @@ In questi testi potete scrivere quello che volete, per esempio:
 
 
 
+# introduzione
+
+Vue è un framework di JS che ci aiuta a sviluppare in modo efficiente
+Una grande agevolazione la troviamo soprattutto nella creazione di HTML dinamici, dove aiuta JS a inserire elementi nel DOM con facilità e riducendo i passaggi.
+Ci sono due stili di API
+- 'API delle opzioni' che si suddivide in 3 opzioni
+    - data() {...} 'dove vengono inseriti i dati che occorrono alla creazione dell'html'
+    - methods: {...} 'dove vengono create tutte le funzioni utili'
+    - mounted() {...} 'aiuta a trascrivere tutto sul DOM'
+
+- 'API di composizioni' più adatto a sviluppatori avanzati
 
 
+# Tamplate Syntax
 
-
+Le tamplate Syntax la utiliziamo nell'HTML per richiamare dati presenti in JS
+La text interpolation ci permette di richiamare un parametro dal JS grazie alla doppia graffa (simile al template literal)
+Tutte le direttive di Vue iniziano per v-... e ne esistyono di diverse
+- v-blind aggancia un elemento del DOM o dall'ID o dalla classe (abbreviazione ':')
+- v-on serve ad ascoltare eventi avvenuti nella pagina (es: click). (abbreviazione '@')
+- v-if serve a rimuovere o rimettere elementi nel DOM a seconda di verificarsi o meno determinati valori dell'espressione
 
 
 
